@@ -44,7 +44,7 @@ header = {
     "Sec-Fetch-Site":"same-origin",
     "Sec-Fetch-User":"?1",
     "Upgrade-Insecure-Requests":"1",
-    #注意你使用认证的浏览器
+    #注意你使用认证的浏览器,用哪个把其他两个用#注释掉
     #edge：
     "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/114.0.1823.51",
     #chrome：
