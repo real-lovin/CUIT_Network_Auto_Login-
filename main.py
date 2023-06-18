@@ -22,8 +22,8 @@ data = {
     "isautoauth":"",
     "notice_pic_loop2":"/portal/uploads/pc/demo2/images/bj.png",
     "notice_pic_loop1":"/portal/uploads/pc/demo2/images/logo.png",
-    "userId":"2020021014",
-    "passwd":"wjm0903.",
+    "userId":"",    #add your studentID here
+    "passwd":"",    #add your password here
     "remInfo":"on"
 }
 
@@ -44,7 +44,13 @@ header = {
     "Sec-Fetch-Site":"same-origin",
     "Sec-Fetch-User":"?1",
     "Upgrade-Insecure-Requests":"1",
+    #注意你使用认证的浏览器
+    #edge：
     "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Edg/114.0.1823.51",
+    #chrome：
+    #"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 ",
+    #Safari
+    #"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36",
     "sec-ch-ua-mobile":"?0",
     "sec-ch-ua-platform":"Windows"
 }
